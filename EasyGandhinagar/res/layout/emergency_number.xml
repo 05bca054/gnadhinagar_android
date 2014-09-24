@@ -1,0 +1,355 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ll_navigation_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_navigation_bottom"
+        android:layout_margin="@dimen/top_height" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:background="@drawable/btn_lightblue_pub"
+                android:orientation="vertical"
+                android:padding="@dimen/top_height" >
+
+                <TextView
+                    android:id="@+id/TextView17"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/top_height"
+                    android:text="ST STAND (RURAL) SEC 11"
+                    android:textSize="@dimen/TextSize_mediam"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_call_st_stand"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/sym_action_call"
+                    android:drawablePadding="@dimen/top_height"
+                    android:gravity="right|center_vertical"
+                    android:text="079 23222842"
+                    android:textSize="@dimen/TextSize_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:background="@drawable/btn_lightblue_pub"
+                android:orientation="vertical"
+                android:padding="@dimen/top_height" >
+
+                <TextView
+                    android:id="@+id/TextView15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/top_height"
+                    android:text="BUS DEPOT MANAGER"
+                    android:textSize="@dimen/TextSize_mediam"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_call_bus_depot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/sym_action_call"
+                    android:drawablePadding="@dimen/top_height"
+                    android:gravity="right|center_vertical"
+                    android:text="079 23222703"
+                    android:textSize="@dimen/TextSize_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:background="@drawable/btn_lightblue_pub"
+                android:orientation="vertical"
+                android:padding="@dimen/top_height" >
+
+                <TextView
+                    android:id="@+id/TextView13"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/top_height"
+                    android:text="RAILWAY STATION GANDHINAGAR"
+                    android:textSize="@dimen/TextSize_mediam"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_call_railway"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/sym_action_call"
+                    android:drawablePadding="@dimen/top_height"
+                    android:gravity="right|center_vertical"
+                    android:text="079 23222420"
+                    android:textSize="@dimen/TextSize_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:background="@drawable/btn_lightblue_pub"
+                android:orientation="vertical"
+                android:padding="@dimen/top_height" >
+
+                <TextView
+                    android:id="@+id/TextView11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/top_height"
+                    android:text="RAILWAY RESERVATION INQUIRY"
+                    android:textSize="@dimen/TextSize_mediam"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_call_railway_inquiry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/sym_action_call"
+                    android:drawablePadding="@dimen/top_height"
+                    android:gravity="right|center_vertical"
+                    android:text="135"
+                    android:textSize="@dimen/TextSize_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:background="@drawable/btn_lightblue_pub"
+                android:orientation="vertical"
+                android:padding="@dimen/top_height" >
+
+                <TextView
+                    android:id="@+id/TextView09"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/top_height"
+                    android:text="SABARMATI RAILWAY STATION"
+                    android:textSize="@dimen/TextSize_mediam"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_call_sabarmati"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/sym_action_call"
+                    android:drawablePadding="@dimen/top_height"
+                    android:gravity="right|center_vertical"
+                    android:text="079 27531559"
+                    android:textSize="@dimen/TextSize_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:background="@drawable/btn_lightblue_pub"
+                android:orientation="vertical"
+                android:padding="@dimen/top_height" >
+
+                <TextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/top_height"
+                    android:text="AIRPORT"
+                    android:textSize="@dimen/TextSize_mediam"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_call_airport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/sym_action_call"
+                    android:drawablePadding="@dimen/top_height"
+                    android:gravity="right|center_vertical"
+                    android:text="079 22869233"
+                    android:textSize="@dimen/TextSize_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:background="@drawable/btn_lightblue_pub"
+                android:orientation="vertical"
+                android:padding="@dimen/top_height" >
+
+                <TextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/top_height"
+                    android:text="TORRENT POWER (SECTOR 16)"
+                    android:textSize="@dimen/TextSize_mediam"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_call_torrent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/sym_action_call"
+                    android:drawablePadding="@dimen/top_height"
+                    android:gravity="right|center_vertical"
+                    android:text="079 23227271"
+                    android:textSize="@dimen/TextSize_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:background="@drawable/btn_lightblue_pub"
+                android:orientation="vertical"
+                android:padding="@dimen/top_height" >
+
+                <TextView
+                    android:id="@+id/TextView03"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/top_height"
+                    android:text="POLICE CONTROL ROOM GANDHINAGAR"
+                    android:textSize="@dimen/TextSize_mediam"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_call_police1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/sym_action_call"
+                    android:drawablePadding="@dimen/top_height"
+                    android:gravity="right|center_vertical"
+                    android:text="100"
+                    android:textSize="@dimen/TextSize_small" />
+                <TextView
+                    android:id="@+id/txt_call_police2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/sym_action_call"
+                    android:drawablePadding="@dimen/top_height"
+                    android:gravity="right|center_vertical"
+                    android:text="079 23222337"
+                    android:textSize="@dimen/TextSize_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:background="@drawable/btn_lightblue_pub"
+                android:orientation="vertical"
+                android:padding="@dimen/top_height" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/top_height"
+                    android:text="AMBULANCE"
+                    android:textSize="@dimen/TextSize_mediam"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_call_ambulance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/sym_action_call"
+                    android:drawablePadding="@dimen/top_height"
+                    android:gravity="right|center_vertical"
+                    android:text="108"
+                    android:textSize="@dimen/TextSize_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/btn_lightblue_pub"
+                android:layout_marginBottom="@dimen/top_height"
+                android:orientation="vertical"
+                android:padding="@dimen/top_height" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/top_height"
+                    android:text="R.T.O. GANDHINAGAR"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/TextSize_mediam" />
+
+               
+                <TextView
+                    android:id="@+id/txt_call_rto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="079 23222553"
+                    android:gravity="right|center_vertical"
+                    android:drawablePadding="@dimen/top_height"
+                    android:drawableLeft="@android:drawable/sym_action_call"
+                    android:textSize="@dimen/TextSize_small" />
+
+            </LinearLayout>
+            
+             <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:background="@drawable/btn_lightblue_pub"
+                android:orientation="vertical"
+                android:padding="@dimen/top_height" >
+
+                <TextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/top_height"
+                    android:text="Woman Helpline"
+                    android:textSize="@dimen/TextSize_mediam"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txt_call_womenhelpline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawableLeft="@android:drawable/sym_action_call"
+                    android:drawablePadding="@dimen/top_height"
+                    android:gravity="right|center_vertical"
+                    android:text="1091"
+                    android:textSize="@dimen/TextSize_small" />
+            </LinearLayout>
+            
+
+        </LinearLayout>
+        
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_navigation_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_navigation_bottom"
+        android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/footer" />
+    </LinearLayout>
+
+</RelativeLayout>

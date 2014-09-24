@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Samsung S4 -->
+    
+    <dimen name="margin_bottom">75dp</dimen>
+    <dimen name="margin_header_back_top">5sp</dimen>
+    <dimen name="margin_header_heart_top">17sp</dimen>
+    
+    <dimen name="TextSize_smaller">13dp</dimen>
+    <dimen name="TextSize_small">23dp</dimen>
+    <dimen name="TextSize_mediam">25dp</dimen>
+    <dimen name="TextSize_large">33dp</dimen>
+    <dimen name="TextSize_Xlarge">50dp</dimen>
+    <dimen name="TextSize_Extralarge">86dp</dimen>
+    
+    <!-- Login -->
+    <dimen name="top_height">5dp</dimen>
+    
+</resources>

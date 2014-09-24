@@ -1,0 +1,222 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/ll_navigation_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_navigation_bottom"
+        android:layout_margin="@dimen/top_height" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_pub_postoffice"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/top_height"
+                    android:layout_weight="1"
+                    android:tag="17"
+                    android:text="Post Office" />
+
+                <Button
+                    android:id="@+id/btn_pub_hospital"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="10"
+                    android:text="Hospital"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_pub_petrolpump"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/top_height"
+                    android:layout_weight="1"
+                    android:tag="7"
+                    android:text="Petrol Pump"/>
+
+                <Button
+                    android:id="@+id/btn_pub_school"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="4"
+                    android:text="Institute" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_pub_policestation"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/top_height"
+                    android:layout_weight="1"
+                    android:tag="14"
+                    android:text="Police Station"/>
+
+                <Button
+                    android:id="@+id/btn_pub_firestation"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="26"
+                    android:text="Fire Station" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_pub_religious"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="@dimen/top_height"
+                    android:layout_weight="1"
+                    android:tag="5"
+                    android:text="Religious"/>
+
+                <Button
+                    android:id="@+id/btn_pub_garden"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="2"
+                    android:text="Garden" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_pub_bank"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginRight="@dimen/top_height"
+                    android:layout_weight="1"
+                    android:tag="18"
+                    android:text="Bank / ATM" />
+                
+                 <Button
+                    android:id="@+id/btn_pub_theartre"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="19"
+                    android:text="MultiPlex" />
+
+                <!-- <Button
+                    android:id="@+id/btn_pub_atm"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="38"
+                    android:text="ATM" /> -->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_pub_communityhall"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="16"
+                    android:text="Community Hall" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_pub_shoppingcenter"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="3"
+                    android:text="Shopping Center/ Complex" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_pub_hotels"
+                    style="@style/btnStylelBluelight_pub"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:tag="6"
+                    android:text="Hotels / Restaurants" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+        
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_navigation_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_navigation_bottom"
+        android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/footer" />
+    </LinearLayout>
+
+</RelativeLayout>

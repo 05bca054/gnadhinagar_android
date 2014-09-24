@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nplussolutions.easygandhinagar"
+    android:versionCode="2"
+    android:versionName="1.1" >
+
+    <permission
+        android:name="com.nplussolutions.easygandhinagar.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+
+    <uses-sdk
+        android:minSdkVersion="9"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="android.permission.STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="com.nplussolutions.easygandhinagar.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+ <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- Required to show current location -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <!-- Required OpenGL ES 2.0. for Maps V2 -->
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/app_icon"
+        android:label="@string/app_name"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.SplaceScreen"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.Home"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.Navigation"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.PublicFacilitiesUtility"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:screenOrientation="portrait"
+                android:value="com.trackapp.Login" />
+        </activity>
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.GovernmentOfficers"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:screenOrientation="portrait"
+                android:value="com.trackapp.Login" />
+        </activity>
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.GovernmentOfficersMap"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:screenOrientation="portrait"
+                android:value="com.trackapp.Login" />
+        </activity>
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.NavigationMap"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyApp.PopupMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.PublicFacilitiesMap"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyApp.PopupMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.OfficesMap"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyApp.PopupMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.GandhinagarAttraction"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyApp.PopupMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+        
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.AttractionMap"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyApp.PopupMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+        
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.GandhinagarCircle"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyApp.PopupMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+        
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.CircleMap"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/MyApp.PopupMenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+        <uses-library android:name="com.google.android.maps" />
+
+        <!-- Goolge API Key -->
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyAlHxE6Ea2PLLqdAr30OjVpG-lFVZF2MnQ" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <service android:name="com.nplussolutions.easygandhinagar.LocationService" />
+
+        <receiver android:name="com.nplussolutions.easygandhinagar.GpsReceiver" >
+            <intent-filter>
+                <action android:name="android.location.GPS_ENABLED_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.IAgree"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.ShowMessage"
+           android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+        
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.PublicFacilities"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+        <activity
+            android:name="com.nplussolutions.easygandhinagar.EmergencyNumber"
+           android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+         <activity
+            android:name="com.nplussolutions.easygandhinagar.PublicFacilitiesList"
+           android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.trackapp.Login" />
+        </activity>
+    </application>
+
+</manifest>

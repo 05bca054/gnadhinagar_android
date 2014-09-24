@@ -1,0 +1,107 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_navigation_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ll_navigation_top"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_navigation"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/top_height" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:layout_marginTop="@dimen/top_height"
+                android:text="Select Sector / SubSector"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="@dimen/TextSize_mediam" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <Spinner
+                    android:id="@+id/spn_navi_sector"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="@dimen/top_height"
+                    android:layout_marginRight="@dimen/top_height"
+                    android:layout_weight="1"
+                    android:background="@drawable/downl_arrow"
+                    android:paddingLeft="5dp"
+                    android:prompt="@string/sectorname" />
+
+                <Spinner
+                    android:id="@+id/spn_navi_subsector"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginBottom="@dimen/top_height"
+                    android:layout_marginLeft="@dimen/top_height"
+                    android:layout_weight="1"
+                    android:background="@drawable/downl_arrow"
+                    android:paddingLeft="5dp"
+                    android:prompt="@string/subsectorname" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/top_height"
+                android:text="Search Plot No"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="@dimen/TextSize_mediam" />
+
+            <AutoCompleteTextView
+                android:id="@+id/txt_searchploteno"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/top_height"
+                android:layout_marginTop="@dimen/top_height"
+                android:background="@drawable/username"
+                android:ems="10"
+                android:hint="Enter Plot No"
+                android:paddingLeft="5dp"
+                android:singleLine="true" >
+
+                <requestFocus />
+            </AutoCompleteTextView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.30"
+            android:orientation="vertical" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_navigation_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/footer" />
+    </LinearLayout>
+
+</RelativeLayout>

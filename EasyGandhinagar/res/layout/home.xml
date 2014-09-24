@@ -1,0 +1,90 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:gravity="center_vertical|center_horizontal"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_home_navigation"
+            style="@style/btnStylelBluelight"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="@dimen/top_height"
+            android:paddingTop="@dimen/top_height"
+             android:layout_marginBottom="@dimen/top_height"
+            android:text="Plot Navigation" />
+
+        <Button
+            android:id="@+id/btn_home_public_fac_utili"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top_height"
+            android:paddingBottom="@dimen/top_height"
+            android:paddingTop="@dimen/top_height"
+            style="@style/btnStylelBluelight"
+            android:text="Public Facilities/Utility"
+            android:textColor="#ffffff" />
+
+        <Button
+            android:id="@+id/btn_home_gov_offices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/btnStylelBluelight"
+            android:paddingBottom="@dimen/top_height"
+            android:paddingTop="@dimen/top_height"
+            android:layout_marginBottom="@dimen/top_height"
+            android:text="Government Offices"
+            android:textColor="#ffffff" />
+        
+         <Button
+            android:id="@+id/btn_home_attraction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top_height"
+            android:paddingBottom="@dimen/top_height"
+            android:paddingTop="@dimen/top_height"
+            style="@style/btnStylelBluelight"
+            android:text="Gandhinagar Attraction"
+            android:textColor="#ffffff" />
+        
+         
+          <Button
+            android:id="@+id/btn_home_circle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top_height"
+            android:paddingBottom="@dimen/top_height"
+            android:paddingTop="@dimen/top_height"
+            style="@style/btnStylelBluelight"
+            android:text="Gandhinagar Junctions"
+            android:textColor="#ffffff" />
+          
+          
+        
+          
+          <Button
+            android:id="@+id/btn_home_EmergencyNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/top_height"
+            android:paddingBottom="@dimen/top_height"
+            android:paddingTop="@dimen/top_height"
+            style="@style/btnStylelBluelight"
+            android:text="Emergency Number"
+            android:textColor="#ffffff" />
+          
+          
+          
+         
+    </LinearLayout>
+
+</LinearLayout>

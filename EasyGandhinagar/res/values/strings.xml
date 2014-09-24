@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Easy Gandhinagar</string>
+    <string name="action_settings">About Us</string>
+    <string name="action_feedback">Feedback</string>
+    <string name="action_suggestion">Suggest Location</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_home">Home</string>
+    <string name="title_activity_navigation">Navigation</string>
+    <string name="title_activity_public_facilities_utility">PublicFacilitiesUtility</string>
+    <string name="title_activity_government_officers">GovernmentOfficers</string>
+    <string name="sectorname">Select Sector</string>
+    <string name="subsectorname">Select SubSector</string>
+    <string name="title_activity_navigation_map">NavigationMap</string>
+    <string name="menu_map_updatelocation">Location Timer</string>
+    <string name="menu_mapview">Basemap</string>
+    <string name="menu_map_normap">STREETS</string>
+    <string name="menu_map_hybrid">HYBRID</string>
+    <string name="menu_map_satellite">SATELLITE</string>
+    <string name="menu_map_terrain">TERRAIN</string>
+    <string name="title_activity_iagree">IAgree</string>
+    <string name="agree_des1">You should be aware that this s/w uses GPS technology, is not 100% accurate, it may contain defect, and is not designed or licensed for use in mission critical applications, or in hazardous environments, requiring fail-safe control.</string>
+    <string name="agree_des2">You are advised not to rely on this s/w, to safeguard important data, to use caution and not to rely in anyway on the correct functioning or performance of this software.</string>
+    <string name="agree_des3">While using the s/w in any form of transportation or traffic, observing the traffic regulations and rules (e.g. use of obligatory and/or reasonable and suitable security measure, proper and generally expected care and attention in the given situation , and special care and attention required due to using the s/w) is your exclusive responsibility;EASY GANDHINAGAR , shall not assume any responsibility for any damages occurred in relation to using  the software in real life traffic situation or to relying on accuracy of the map data.</string>
+    <string name="agree_des4">Please note that an active internet connection is required to use certain online functions and to access online content.</string>
+    <string name="agree_des5">By accepting Disclaimer you agree to use the software at your own risk and irrevocably waive all your rights to seek damages or relief of any nature from EASY GANDHINAGAR App. Arising out of or in connection with your use of the s/w</string>
+    <string name="agree_des6">Privacy Policy</string>
+    <string name="agree_des7">This s/w may use and record your location data on your device, depending on your settings. Unless agreed otherwise, EASY GANDHINAGAR will not transfer your personally identifiable data to any third party.</string>
+    <string name="title_activity_show_message">ShowMessage</string>
+
+</resources>

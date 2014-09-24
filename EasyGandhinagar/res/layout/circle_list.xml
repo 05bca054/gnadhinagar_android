@@ -1,0 +1,214 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/ll_navigation_top"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/ll_navigation_bottom"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/ll_public_facilities"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/top_height"
+                android:layout_marginBottom="@dimen/top_height"
+                android:text="List of Circle"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:textSize="@dimen/TextSize_mediam" />
+
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="none|vertical" >
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical" >
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="K"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/TextSize_small"
+                            android:textStyle="bold|italic" />
+
+                        <com.nplussolutions.easygandhinagar.Utils.MyListView
+                            android:id="@+id/lv_circle_k"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/top_height"
+                            android:divider="@null"
+                            android:listSelector="#00000000"
+                            android:numColumns="1"
+                            android:paddingLeft="@dimen/top_height"
+                            android:scrollbars="none" >
+                        </com.nplussolutions.easygandhinagar.Utils.MyListView>
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Kh"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/TextSize_small"
+                            android:textStyle="bold|italic" />
+
+                        <com.nplussolutions.easygandhinagar.Utils.MyListView
+                            android:id="@+id/lv_circle_kh"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/top_height"
+                            android:divider="@null"
+                            android:listSelector="#00000000"
+                            android:numColumns="1"
+                            android:paddingLeft="@dimen/top_height"
+                            android:scrollbars="none" >
+                        </com.nplussolutions.easygandhinagar.Utils.MyListView>
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="G"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/TextSize_small"
+                            android:textStyle="bold|italic" />
+
+                        <com.nplussolutions.easygandhinagar.Utils.MyListView
+                            android:id="@+id/lv_circle_g"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/top_height"
+                            android:divider="@null"
+                            android:listSelector="#00000000"
+                            android:numColumns="1"
+                            android:paddingLeft="@dimen/top_height"
+                            android:scrollbars="none" >
+                        </com.nplussolutions.easygandhinagar.Utils.MyListView>
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Gh"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/TextSize_small"
+                            android:textStyle="bold|italic" />
+
+                        <com.nplussolutions.easygandhinagar.Utils.MyListView
+                            android:id="@+id/lv_circle_gh"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/top_height"
+                            android:divider="@null"
+                            android:listSelector="#00000000"
+                            android:numColumns="1"
+                            android:paddingLeft="@dimen/top_height"
+                            android:scrollbars="none" >
+                        </com.nplussolutions.easygandhinagar.Utils.MyListView>
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Ch"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/TextSize_small"
+                            android:textStyle="bold|italic" />
+
+                        <com.nplussolutions.easygandhinagar.Utils.MyListView
+                            android:id="@+id/lv_circle_ch"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/top_height"
+                            android:divider="@null"
+                            android:listSelector="#00000000"
+                            android:numColumns="1"
+                            android:paddingLeft="@dimen/top_height"
+                            android:scrollbars="none" >
+                        </com.nplussolutions.easygandhinagar.Utils.MyListView>
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Chh"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/TextSize_small"
+                            android:textStyle="bold|italic" />
+
+                        <com.nplussolutions.easygandhinagar.Utils.MyListView
+                            android:id="@+id/lv_circle_chh"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/top_height"
+                            android:divider="@null"
+                            android:listSelector="#00000000"
+                            android:numColumns="1"
+                            android:paddingLeft="@dimen/top_height"
+                            android:scrollbars="none" >
+                        </com.nplussolutions.easygandhinagar.Utils.MyListView>
+
+                        <TextView
+                            android:id="@+id/textView2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="J"
+                            android:textColor="#ffffff"
+                            android:textSize="@dimen/TextSize_small"
+                            android:textStyle="bold|italic" />
+
+                        <com.nplussolutions.easygandhinagar.Utils.MyListView
+                            android:id="@+id/lv_circle_j"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="@dimen/top_height"
+                            android:divider="@null"
+                            android:listSelector="#00000000"
+                            android:numColumns="1"
+                            android:paddingLeft="@dimen/top_height"
+                            android:scrollbars="none" >
+                        </com.nplussolutions.easygandhinagar.Utils.MyListView>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_navigation_bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ll_navigation_bottom"
+        android:layout_alignParentBottom="true" >
+
+        <include layout="@layout/footer" />
+    </LinearLayout>
+
+</RelativeLayout>

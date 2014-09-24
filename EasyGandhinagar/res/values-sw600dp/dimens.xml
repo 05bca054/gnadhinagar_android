@@ -1,0 +1,24 @@
+<resources>
+
+    <!--
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw600dp devices (e.g. 7" tablets) here.
+         Asus Tablet
+    -->
+    
+    <dimen name="margin_bottom">120dp</dimen>
+    <dimen name="margin_header_back_top">5sp</dimen>
+    <dimen name="margin_header_heart_top">17sp</dimen>
+    
+    <dimen name="TextSize_smaller">13dp</dimen>
+    <dimen name="TextSize_small">23dp</dimen>
+    <dimen name="TextSize_mediam">34dp</dimen>
+    <dimen name="TextSize_large">33dp</dimen>
+    <dimen name="TextSize_Xlarge">50dp</dimen>
+    <dimen name="TextSize_Extralarge">86dp</dimen>
+    
+    <!-- Login -->
+    <dimen name="top_height">15dp</dimen>
+    <dimen name="message_height">150dp</dimen>
+
+</resources>
